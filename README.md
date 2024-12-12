@@ -14,3 +14,10 @@ git log --stat | grep <search term> -i -A40 -B40
 ```bash
 mvn dependency:tree -Dverbose -DoutputFile=dependency-tree
 ```
+
+
+#### Runtime deps
+
+```bash
+mvn dependency:analyze -Dverbose
+```
